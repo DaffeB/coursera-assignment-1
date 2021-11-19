@@ -1,5 +1,10 @@
 *{
 	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+.box{
+	width: 100%;
 }
 
 .boxcontainer{
@@ -62,4 +67,32 @@
     align-items: center;
     font-weight: bold;
 }
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 200px) {  
+	.box{
+		margin-top:4%;
+		width:100%;
+	}
+
+	.boxcontainer{
+		flex-wrap: wrap;
+	}
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {  
+	.box{
+		width: 47%;
+	}
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+	.box{
+		width:31%
+	}
+ }
+
 
